@@ -32,8 +32,9 @@ class App extends Component {
 	render() {
 		const { good, neutral, bad } = this.state;
 		return (
-			<div>
-				<Section title="Please leave your feedback">
+			<div> 
+				<h1 className='section_header__Cx0aE'>Sip Happens Café</h1>
+				<Section title="Please leave your feedback about our service by selecting one of the options below.">
 					<FeedbackOptions
 						options={buttons}
 						onLeaveFeedback={this.onLeaveFeedback}
